@@ -41,6 +41,13 @@
           <source>8</source> 
           <doclint>none</doclint>
         </configuration>
+		<executions>
+			<execution>
+				<id>attach-javadocs</id>
+			<goals>
+				<goal>jar</goal>
+			</execution>
+		</executions>
       </plugin>
     </plugins>
   </build>
