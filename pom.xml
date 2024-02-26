@@ -38,6 +38,13 @@
         <artifactId>maven-javadoc-plugin</artifactId>
         <version>3.3.2</version>
         <configuration> 
+          <executions>
+            <execution>
+              <id>attach-javadocs</id>
+              <goals>
+                <goal>jar</goal>
+              </goals>
+            </execution>
           <source>8</source> 
           <doclint>none</doclint>
         </configuration>
